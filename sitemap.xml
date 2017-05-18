@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://xinjiayu.github.io/post/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BAgithub%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%AB%99%E7%82%B9/</loc>
+    <lastmod>2017-05-18T07:31:16+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://xinjiayu.github.io/post/%E6%88%90%E4%B8%BA%E6%BC%A9%E6%B6%A1%E7%9A%84%E4%B8%AD%E5%BF%83/</loc>
     <lastmod>2017-05-18T07:20:07+08:00</lastmod>
   </url>
@@ -32,12 +37,20 @@
   </url>
   
   <url>
+    <loc>https://xinjiayu.github.io/tags/development/</loc>
+    <lastmod>2017-05-18T07:31:16+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://xinjiayu.github.io/tags/golang/</loc>
+    <lastmod>2017-05-18T07:31:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://xinjiayu.github.io/categories/golang/</loc>
+    <lastmod>2017-05-18T07:31:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -53,24 +66,25 @@
   
   <url>
     <loc>https://xinjiayu.github.io/post/</loc>
-    <lastmod>2017-05-18T07:20:07+08:00</lastmod>
+    <lastmod>2017-05-18T07:31:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://xinjiayu.github.io/tags/</loc>
+    <lastmod>2017-05-18T07:31:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://xinjiayu.github.io/</loc>
-    <lastmod>2017-05-18T07:20:07+08:00</lastmod>
+    <lastmod>2017-05-18T07:31:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://xinjiayu.github.io/categories/%E5%8E%9F%E5%88%9B/</loc>
-    <lastmod>2017-05-18T07:20:07+08:00</lastmod>
+    <lastmod>2017-05-18T07:31:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
