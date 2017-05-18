@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://xinjiayu.github.io/post/%E6%88%90%E4%B8%BA%E6%BC%A9%E6%B6%A1%E7%9A%84%E4%B8%AD%E5%BF%83/</loc>
+    <lastmod>2017-05-18T07:20:07+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://xinjiayu.github.io/post/first/</loc>
     <lastmod>2017-05-17T20:03:51+08:00</lastmod>
   </url>
@@ -13,13 +18,42 @@
   </url>
   
   <url>
+    <loc>https://xinjiayu.github.io/archetypes/default/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xinjiayu.github.io/archetypes/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://xinjiayu.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://xinjiayu.github.io/tags/golang/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xinjiayu.github.io/categories/golang/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xinjiayu.github.io/tags/php/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xinjiayu.github.io/categories/php/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://xinjiayu.github.io/post/</loc>
-    <lastmod>2017-05-17T20:03:51+08:00</lastmod>
+    <lastmod>2017-05-18T07:20:07+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -30,7 +64,19 @@
   
   <url>
     <loc>https://xinjiayu.github.io/</loc>
-    <lastmod>2017-05-17T20:03:51+08:00</lastmod>
+    <lastmod>2017-05-18T07:20:07+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xinjiayu.github.io/categories/%E5%8E%9F%E5%88%9B/</loc>
+    <lastmod>2017-05-18T07:20:07+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xinjiayu.github.io/categories/%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2017-05-18T07:20:07+08:00</lastmod>
     <priority>0</priority>
   </url>
   
