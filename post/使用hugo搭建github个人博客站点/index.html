@@ -74,9 +74,7 @@
 
 <p>　　Hugo安装很简单。有两种安装方式：</p>
 
-<ol>
-<li>二进制安装</li>
-</ol>
+<h3 id="1-1-二进制安装">1.1 二进制安装</h3>
 
 <p>　　到 Hugo Releases 下载对应的操作系统版本的Hugo二进制文件（hugo或者hugo.exe）</p>
 
@@ -85,9 +83,7 @@
 <pre><code>brew install hugo
 </code></pre>
 
-<ol>
-<li>源码安装</li>
-</ol>
+<h3 id="1-2-源码安装">1.2 源码安装</h3>
 
 <p>　　在GO的开发环境下，通过获取源代码进行安装。</p>
 
@@ -100,6 +96,10 @@
 </code></pre>
 
 <h2 id="二-生成站点">二、生成站点</h2>
+
+<p>　　</p>
+
+<h3 id="2-1-创建站点">2.1 创建站点</h3>
 
 <p>　　使用Hugo快速生成站点，比如希望生成到 /gowork/site 路径：</p>
 
@@ -121,22 +121,22 @@
 |- &lt;config class=&quot;tom&quot;&gt;&lt;/config&gt;l ：config.toml是网站的配置文件
 </code></pre>
 
-<h3 id="安装主题">安装主题</h3>
+<h3 id="2-2-安装主题">2.2 安装主题</h3>
 
-<p>Hugo官方主题：<a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
+<p>　　Hugo官方主题：<a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
 
-<p>Hugo官方主题GitHub：<a href="https://github.com/spf13/hugoThemes/">https://github.com/spf13/hugoThemes/</a></p>
+<p>　　Hugo官方主题GitHub：<a href="https://github.com/spf13/hugoThemes/">https://github.com/spf13/hugoThemes/</a></p>
 
 <pre><code>$ cd themes/
 $ git clone https://github.com/spf13/hyde.git
 </code></pre>
 
-<p>在config.toml文件中指定hyde作为默认主题。只需添加一行：</p>
+<p>　　在config.toml文件中指定hyde作为默认主题。只需添加一行：</p>
 
 <pre><code>theme = &quot;hyde&quot;
 </code></pre>
 
-<p>主题存放的路径为：themes\hyde，包含以下文件：</p>
+<p>　　主题存放的路径为：themes\hyde，包含以下文件：</p>
 
 <pre><code>|- archetypes ：存放default.md，头文件格式
 |- layouts ：主题模板文件
@@ -144,23 +144,21 @@ $ git clone https://github.com/spf13/hyde.git
 |- theme.toml ：主题配置文件
 </code></pre>
 
-<h3 id="运行hugo-server">运行Hugo Server</h3>
+<h3 id="2-3-运行hugo-server">2.3 运行Hugo Server</h3>
 
-<p>Hugo内置http server，在你的站点根目录执行hugo server命令，即可在浏览器里输入：<code>http://localhost:1313访问网站</code>。</p>
+<p>　　Hugo内置http server，在你的站点根目录执行hugo server命令，即可在浏览器里输入：<code>http://localhost:1313访问网站</code>。</p>
 
 <pre><code>  $ hugo server --theme=hyde --buildDrafts
 </code></pre>
 
 <h2 id="三-内容维护">三、内容维护</h2>
 
-<ol>
-<li>发表文章：</li>
-</ol>
+<h3 id="3-1-发表文章">3.1 发表文章：</h3>
 
 <pre><code>    $ hugo new post/test.md
 </code></pre>
 
-<p>可以用文本文件或markdown编辑器打开文件 post/test.md ，并增加点内容。</p>
+<p>　　可以用文本文件或markdown编辑器打开文件 post/test.md ，并增加点内容。</p>
 
 <pre><code>+++
 date = &quot;2017-02-10T15:01:33+08:00&quot;
@@ -171,13 +169,11 @@ draft = false
 Hello Hugo！测试内容
 </code></pre>
 
-<p>注意：默认创建的是草稿类型，需要将draft值改为false才能看到页面。</p>
+<p>　　注意：默认创建的是草稿类型，需要将draft值改为false才能看到页面。</p>
 
-<ol>
-<li>列表页概要处理</li>
-</ol>
+<h3 id="3-2-列表页概要处理">3.2 列表页概要处理</h3>
 
-<p>通常在博客首页显示多篇文章，都采用了摘要显示的方式。这儿需要修改某个主题下面<code>layouts/index.html</code>文件</p>
+<p>　　通常在博客首页显示多篇文章，都采用了摘要显示的方式。这儿需要修改某个主题下面<code>layouts/index.html</code>文件</p>
 
 <pre><code>  {{ range first 10 .Data.Pages }}
   &lt;div class=&quot;summary&quot;&gt;
@@ -193,9 +189,9 @@ Hello Hugo！测试内容
 {{ end }}
 </code></pre>
 
-<p>默认的<code>.Summary</code>显示70字符，有的时候显示的内容并不是自己想要截取的内容，可以在<code>.MD</code>文档内容里，直接使用</p>
+<p>　　默认的<code>.Summary</code>显示70字符，有的时候显示的内容并不是自己想要截取的内容，可以在<code>.MD</code>文档内容里，直接使用</p>
 
-<pre><code>    HUGOMORE42
+<pre><code>    &lt;!--more　--&gt;　把more后面的空格删除再用
 </code></pre>
 
 <h2 id="四-生成github静态网站">四、生成Github静态网站</h2>
@@ -203,13 +199,13 @@ Hello Hugo！测试内容
 <pre><code>$ hugo --theme=hyde --baseUrl=&quot;https://YOURNAME.github.io/&quot;
 </code></pre>
 
-<p>所有静态页面都会生成到 public 目录下，生成静态网站后并push到你的GitHub Pages上，就能得到一个在线的个人博客了。本文对GitHub如何使用不做详细介绍。请参考GitHub Pages在线帮助文档。</p>
+<p>　　所有静态页面都会生成到 public 目录下，生成静态网站后并push到你的GitHub Pages上，就能得到一个在线的个人博客了。本文对GitHub如何使用不做详细介绍。请参考GitHub Pages在线帮助文档。</p>
 
-<p>首先在GitHub上创建个Repository，命名为：YOURNAME.github.io(YOURNAME替换为自己的用户名)，然后用git 将刚才创建的YOURNAME.github.io项目clone下来。</p>
+<p>　　首先在GitHub上创建个Repository，命名为：YOURNAME.github.io(YOURNAME替换为自己的用户名)，然后用git 将刚才创建的YOURNAME.github.io项目clone下来。</p>
 
-<p>将生成的 public 目录下所有文件拷贝到YOURNAME.github.io项目中，并提交版本。</p>
+<p>　　将生成的 public 目录下所有文件拷贝到YOURNAME.github.io项目中，并提交版本。</p>
 
-<p>现在你可以打开浏览器访问：<a href="https://xinjiayu.github.io/">https://xinjiayu.github.io/</a> 你的博客了。</p>
+<p>　　现在你可以打开浏览器访问：<a href="https://xinjiayu.github.io/">https://xinjiayu.github.io/</a> 你的博客了。</p>
 			</div>
 
 			
