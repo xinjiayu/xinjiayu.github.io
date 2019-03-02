@@ -74,9 +74,10 @@
 
 </code></pre>
 
-<p>原因是这个代码已经转移到github上面了，但是代码里面的包依赖还是没有修改，还是google.golang.org这种，</p>
+<p>原因是这个代码已经转移到github上面了，但是代码里面的包依赖还是没有修改，还是google.golang.org这种，
+所以不能使用go get的方式安装，正确的安装方式：</p>
 
-<p>所以不能使用go get的方式安装，正确的安装方式：</p>
+<p></p>
 
 <pre><code>
 git clone https://github.com/grpc/grpc-go.git $GOPATH/src/google.golang.org/grpc
@@ -94,7 +95,6 @@ cd $GOPATH/src/
 go install google.golang.org/grpc
 
 </code></pre>
-
 			</div>
 
 			
