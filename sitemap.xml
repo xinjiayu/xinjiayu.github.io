@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://xinjiayu.github.io/post/golang%E6%8A%A5%E9%94%99protopackageisversion3%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</loc>
+    <lastmod>2019-03-10T07:30:14+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://xinjiayu.github.io/post/golang%E5%AE%89%E8%A3%85grpc/</loc>
     <lastmod>2019-03-02T12:11:59+08:00</lastmod>
   </url>
@@ -43,24 +48,25 @@
   
   <url>
     <loc>https://xinjiayu.github.io/tags/development/</loc>
-    <lastmod>2019-03-02T12:11:59+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xinjiayu.github.io/tags/golang/</loc>
-    <lastmod>2019-03-02T12:11:59+08:00</lastmod>
+    <lastmod>2019-03-10T07:30:14+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://xinjiayu.github.io/categories/golang/</loc>
-    <lastmod>2019-03-02T12:11:59+08:00</lastmod>
+    <lastmod>2019-03-10T07:30:14+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://xinjiayu.github.io/tags/php/</loc>
+    <loc>https://xinjiayu.github.io/tags/golang/</loc>
+    <lastmod>2019-03-10T07:30:14+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xinjiayu.github.io/tags/grpc/</loc>
+    <lastmod>2019-03-10T07:30:14+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -70,26 +76,31 @@
   </url>
   
   <url>
+    <loc>https://xinjiayu.github.io/tags/php/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://xinjiayu.github.io/post/</loc>
-    <lastmod>2019-03-02T12:11:59+08:00</lastmod>
+    <lastmod>2019-03-10T07:30:14+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://xinjiayu.github.io/tags/</loc>
-    <lastmod>2019-03-02T12:11:59+08:00</lastmod>
+    <lastmod>2019-03-10T07:30:14+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://xinjiayu.github.io/</loc>
-    <lastmod>2019-03-02T12:11:59+08:00</lastmod>
+    <lastmod>2019-03-10T07:30:14+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://xinjiayu.github.io/categories/%E5%8E%9F%E5%88%9B/</loc>
-    <lastmod>2019-03-02T12:11:59+08:00</lastmod>
+    <lastmod>2019-03-10T07:30:14+08:00</lastmod>
     <priority>0</priority>
   </url>
   

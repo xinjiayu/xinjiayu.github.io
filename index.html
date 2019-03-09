@@ -68,6 +68,17 @@
 
   
   <div class="summary">
+    <h1><a href="/post/golang%E6%8A%A5%E9%94%99protopackageisversion3%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/">golang报错ProtoPackageIsVersion3问题解决</a></h1>
+        <span class="post-date">Sun, Mar 10, 2019</span>
+    在golang中使用grpc的时候遇到下面这个问题。
+undefined：proto.ProtoPackageIsVersion3
+查看了很多资料与其它人的解决办法，都没有能解决，最后终于找到了解决办法，轻松解决问题。通过模块的方式一句就可以。
+require github.com/golang/protobuf v1.2.1-0.20190205222052-c823c79ea157 // indirect
+再运行，就可以通过了。
+  </div>
+  
+
+  <div class="summary">
     <h1><a href="/post/golang%E5%AE%89%E8%A3%85grpc/">golang安装gRpc</a></h1>
         <span class="post-date">Sat, Mar 2, 2019</span>
     <p>golang安装gRpc
