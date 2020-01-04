@@ -78,5 +78,14 @@ require github.com/golang/protobuf v1.2.1-0.20190205222052-c823c79ea157 // indir
       <description>在github上整个博客也挺有意思的。适合搞技术的人。 以后考虑在这儿个上面分享总结一些工作上的内容。</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://xinjiayu.github.io/post/user_github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xinjiayu.github.io/post/user_github/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
